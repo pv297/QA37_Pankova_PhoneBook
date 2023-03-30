@@ -59,7 +59,7 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitRegistration();
-//        Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password format\n" +
+//        Assert.assertTrue(app.getHelperUser().isAlertPresent(" Wrong email or password format\n" +
 //                "            Email must contains one @ and minimum 2 symbols after last dot\n" +
 //                "            Password must contain at least one uppercase letter!\n" +
 //                "            Password must contain at least one lowercase letter!\n" +
