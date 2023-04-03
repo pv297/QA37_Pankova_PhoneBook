@@ -46,7 +46,7 @@ public class RegistrationTests extends TestBase{
 //                "            Password must contain at least one uppercase letter!\n" +
 //                "            Password must contain at least one lowercase letter!\n" +
 //                "            Password must contain at least one digit!\n" +
-//                "            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!"));
+//                "            Password must contain at least one special symbol from [‘$   w’,’~’,’-‘,’_’]!"));
 
         Assert.assertTrue(app.getHelperUser().isAlertPresent2("Wrong email or password format"));
 
