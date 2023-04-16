@@ -1,0 +1,3 @@
+09:28:45.478  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+09:28:47.639  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+09:28:54.307  INFO  tests.TestBase - Name of method -->addNewContactWrongPhone

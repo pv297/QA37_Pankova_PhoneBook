@@ -1,0 +1,9 @@
+09:30:26.595  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+09:30:28.434  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+09:30:34.132  INFO  tests.TestBase - Name of method -->addNewContactSuccessAllFields
+09:30:37.111  INFO  tests.TestBase - Name of method -->addNewContactSuccessRequiredFields
+09:30:39.788  INFO  tests.TestBase - Name of method -->addNewContactWrongAddress
+09:30:42.413  INFO  tests.TestBase - Name of method -->addNewContactWrongEmail
+09:30:45.869  INFO  tests.TestBase - Name of method -->addNewContactWrongLastName
+09:30:48.268  INFO  tests.TestBase - Name of method -->addNewContactWrongName
+09:30:50.311  INFO  tests.TestBase - Name of method -->addNewContactWrongPhone
