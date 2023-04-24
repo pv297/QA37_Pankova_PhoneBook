@@ -1,8 +1,15 @@
 package tests;
 
+import manager.DataProviderUser;
+import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class LoginTests extends TestBase {
 
@@ -15,12 +22,13 @@ public class LoginTests extends TestBase {
         }
     }
 
-    @Test
-    public void loginSuccess() {
+    @Test(dataProvider = "loginData", dataProviderClass  = DataProviderUser.class)
+    public void loginSuccess(String email,String password) {
         logger.info("Start test with name 'loginSuccess'");
-        logger.info("Test data ----> email: p.v.2977187@gmail.com' & password : 'P29348092l@'");
+        //logger.info("Test data ----> email: p.v.2977187@gmail.com' & password : 'P29348092l@'");
+        logger.info("Test data ----> email: " + email + " & password : " + password);
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("p.v.2977187@gmail.com", "P29348092l@");
+        app.getHelperUser().fillLoginRegistrationForm(email, password);
         app.getHelperUser().submitLogin();
         // time -----> singOut
         // Assert.assertEquals();
@@ -31,11 +39,12 @@ public class LoginTests extends TestBase {
         logger.info("Asser check is element button 'Sing out' present");
     }
 
-    @Test
-    public void loginSuccessModel() {
-        logger.info("Test data ----> email: p.v.2977187@gmail.com' & password : 'P29348092l@'");
+
+    @Test(dataProvider = "loginModels",dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModel(User user) {
+        logger.info("Test data ----> " + user.toString());
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("p.v.2977187@gmail.com", "P29348092l@");
+        app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitLogin();
 
         Assert.assertTrue(app.getHelperUser().isLogged());
@@ -44,12 +53,12 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginWrongEmail() {
-        logger.info("Test data ----> email: p.v.2977187@gmail.com' & password : 'P29348092l@'");
+        logger.info("Test data ----> email: p.v.2977187' & password : 'P29348092l@'");
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("p.v.2977187", "P29348092l@");
         app.getHelperUser().submitLogin();
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password"));
-        logger.info("Asser check is alert present ");
+        logger.info("Assert check is alert present with error text 'Wrong email or password'");
     }
 
     @Test
@@ -59,6 +68,7 @@ public class LoginTests extends TestBase {
         app.getHelperUser().fillLoginRegistrationForm("p.v.2977187@gmail.com", "P29348092l");
         app.getHelperUser().submitLogin();
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password"));
+        logger.info("Assert check is alert present with error text 'Wrong email or password'");
     }
 
     @Test
@@ -68,5 +78,6 @@ public class LoginTests extends TestBase {
         app.getHelperUser().fillLoginRegistrationForm("p.v@gmail.com", "P29348092l@");
         app.getHelperUser().submitLogin();
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password"));
+        logger.info("Assert check is alert present with error text 'Wrong email or password'");
     }
 }

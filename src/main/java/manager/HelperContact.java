@@ -10,14 +10,12 @@ import java.util.List;
 import java.util.Random;
 
 public class HelperContact extends HelperBase {
-
-
     public HelperContact(WebDriver wd) {
         super(wd);
     }
 
     public void openContactForm() {
-        pause(1000);
+        //pause(1000);
         click(By.cssSelector("a[href='/add']"));
     }
 
@@ -32,7 +30,7 @@ public class HelperContact extends HelperBase {
 
     public void saveContact() {
         getScreenElement("src/test/screenshots/screen-btn.png", By.cssSelector(".add_form__2rsm2>button"));
-        click(By.xpath("//b[text()='Save']"));//".add_form__2rsm2>button"
+        click(By.cssSelector(".add_form__2rsm2>button"));
     }
 
     public boolean isContactAddedByName(String name) {
@@ -94,11 +92,12 @@ public class HelperContact extends HelperBase {
     }
 
     private void addOneContact() {
+
         int i = new Random().nextInt(1000) + 1000;
 
         Contact contact = Contact.builder()
                 .name("Tim" + i)
-                .lastName("Timm")
+                .lastName("Tims")
                 .phone("123456" + i)
                 .email("timtim" + i + "@gmail.com")
                 .address("TA")
@@ -108,6 +107,7 @@ public class HelperContact extends HelperBase {
        openContactForm();
        fillContactForm(contact);
        saveContact();
+       pause(500);
     }
 }
 

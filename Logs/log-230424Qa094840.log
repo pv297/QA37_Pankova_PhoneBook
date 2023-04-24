@@ -1,0 +1,31 @@
+09:48:44  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+09:48:46  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+09:48:46  INFO  tests.TestBase - Name of method -->registrationSuccess
+09:48:46  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+09:48:51  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+09:48:51  INFO  manager.ListenerWD - list of elements is --->0
+09:48:51  INFO  tests.TestBase - Tests run with data: --->User{email='nil1742@gmail.com', password='Nil12345@'}
+09:48:51  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/login']
+09:48:51  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/login']
+09:48:51  INFO  manager.ListenerWD - Location of element(1170, 34)
+09:48:52  INFO  manager.ListenerWD - before Find Element --->By.name: email
+09:48:52  INFO  manager.ListenerWD - after Find Element --->By.name: email
+09:48:52  INFO  manager.ListenerWD - Location of element(440, 250)
+09:48:52  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[last()]
+09:48:52  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[last()]
+09:48:52  INFO  manager.ListenerWD - Location of element(440, 320)
+09:48:52  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Registration']
+09:48:53  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Registration']
+09:48:53  INFO  manager.ListenerWD - Location of element(690, 390)
+09:48:53  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+09:48:54  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+09:48:54  INFO  manager.ListenerWD - list of elements is --->1
+09:48:54  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .contact-page_message__2qafk>h1
+09:48:54  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .contact-page_message__2qafk>h1
+09:48:54  INFO  manager.ListenerWD - Location of element(505, 271)
+09:48:54  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .contact-page_message__2qafk>h1
+09:48:54  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .contact-page_message__2qafk>h1
+09:48:54  INFO  manager.ListenerWD - Location of element(505, 271)
+09:48:54  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .contact-page_message__2qafk>h1
+09:48:54  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .contact-page_message__2qafk>h1
+09:48:54  INFO  manager.ListenerWD - Location of element(505, 271)

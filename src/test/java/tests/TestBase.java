@@ -12,7 +12,6 @@ import java.lang.reflect.Method;
 public class TestBase {
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
-
     static ApplicationManager app = new ApplicationManager();
     @BeforeMethod
     public void startLogger(Method method){

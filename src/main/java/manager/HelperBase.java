@@ -27,6 +27,7 @@ public class HelperBase {
         element.click();
         element.clear();
         clearNew(element);
+
         if (text != null) {
             element.sendKeys(text);
         }
