@@ -1,0 +1,73 @@
+20:38:31  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+20:38:34  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+20:38:34  INFO  tests.TestBase - Name of method -->loginSuccessModelDP
+20:38:34  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:39  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:39  INFO  manager.ListenerWD - list of elements is --->0
+20:38:39  INFO  tests.TestBase - Test data ----> User{email='p.v.2977187@gmail.com', password='P29348092l@'}
+20:38:39  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/login']
+20:38:39  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/login']
+20:38:39  INFO  manager.ListenerWD - Location of element(1170, 34)
+20:38:40  INFO  manager.ListenerWD - before Find Element --->By.name: email
+20:38:40  INFO  manager.ListenerWD - after Find Element --->By.name: email
+20:38:40  INFO  manager.ListenerWD - Location of element(440, 250)
+20:38:40  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[last()]
+20:38:40  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[last()]
+20:38:40  INFO  manager.ListenerWD - Location of element(440, 320)
+20:38:41  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Login']
+20:38:41  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Login']
+20:38:41  INFO  manager.ListenerWD - Location of element(440, 390)
+20:38:41  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:42  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:42  INFO  manager.ListenerWD - list of elements is --->1
+20:38:42  INFO  tests.TestBase - Assert check is element button 'Sing out' present
+20:38:42  INFO  tests.TestBase - Name of method -->loginSuccessModelDP
+20:38:42  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:42  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:42  INFO  manager.ListenerWD - list of elements is --->1
+20:38:42  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Sign Out']
+20:38:42  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Sign Out']
+20:38:42  INFO  manager.ListenerWD - Location of element(1155, 39)
+20:38:42  INFO  tests.TestBase - Before method finish logout
+20:38:42  INFO  tests.TestBase - Test data ----> User{email='marym@gmail.com', password='Mm12345@'}
+20:38:42  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/login']
+20:38:42  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/login']
+20:38:42  INFO  manager.ListenerWD - Location of element(1169, 33)
+20:38:42  INFO  manager.ListenerWD - before Find Element --->By.name: email
+20:38:42  INFO  manager.ListenerWD - after Find Element --->By.name: email
+20:38:43  INFO  manager.ListenerWD - Location of element(440, 250)
+20:38:43  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[last()]
+20:38:43  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[last()]
+20:38:43  INFO  manager.ListenerWD - Location of element(440, 320)
+20:38:43  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Login']
+20:38:43  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Login']
+20:38:43  INFO  manager.ListenerWD - Location of element(440, 390)
+20:38:43  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:44  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:44  INFO  manager.ListenerWD - list of elements is --->1
+20:38:44  INFO  tests.TestBase - Assert check is element button 'Sing out' present
+20:38:44  INFO  tests.TestBase - Name of method -->loginSuccessModelDP
+20:38:44  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:44  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:44  INFO  manager.ListenerWD - list of elements is --->1
+20:38:44  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Sign Out']
+20:38:44  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Sign Out']
+20:38:44  INFO  manager.ListenerWD - Location of element(1155, 39)
+20:38:44  INFO  tests.TestBase - Before method finish logout
+20:38:44  INFO  tests.TestBase - Test data ----> User{email='p.v.2977187@gmail.com', password='P29348092l@'}
+20:38:44  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/login']
+20:38:44  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/login']
+20:38:44  INFO  manager.ListenerWD - Location of element(1169, 33)
+20:38:44  INFO  manager.ListenerWD - before Find Element --->By.name: email
+20:38:44  INFO  manager.ListenerWD - after Find Element --->By.name: email
+20:38:44  INFO  manager.ListenerWD - Location of element(440, 250)
+20:38:44  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[last()]
+20:38:44  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[last()]
+20:38:45  INFO  manager.ListenerWD - Location of element(440, 320)
+20:38:45  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Login']
+20:38:45  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Login']
+20:38:45  INFO  manager.ListenerWD - Location of element(440, 390)
+20:38:45  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:46  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+20:38:46  INFO  manager.ListenerWD - list of elements is --->1
+20:38:46  INFO  tests.TestBase - Assert check is element button 'Sing out' present

@@ -19,7 +19,6 @@ public class AddNewContactTests extends TestBase {
 
     @Test(dataProvider = "contactSuccess",dataProviderClass = DataProviderContact.class)
     public void addNewContactSuccessAllFields(Contact contact) {
-        // int i = new Random().nextInt(1000) + 1000;
 
         logger.info("Tests run with data: --->"+contact.toString());
         app.getHelperContact().openContactForm();
@@ -29,7 +28,17 @@ public class AddNewContactTests extends TestBase {
         Assert.assertTrue((app.getHelperContact().isContactAddedByName(contact.getName())));
         Assert.assertTrue((app.getHelperContact().isContactAddedByPhone(contact.getPhone())));
     }
+    @Test(dataProvider = "contactCSV",dataProviderClass = DataProviderContact.class)
+    public void addNewContactSuccessAllFieldsCSV(Contact contact) {
 
+        logger.info("Tests run with data: --->"+contact.toString());
+        app.getHelperContact().openContactForm();
+        app.getHelperContact().fillContactForm(contact);
+        app.getHelperContact().saveContact();
+
+        Assert.assertTrue((app.getHelperContact().isContactAddedByName(contact.getName())));
+        Assert.assertTrue((app.getHelperContact().isContactAddedByPhone(contact.getPhone())));
+    }
     @Test
     public void addNewContactSuccessRequiredFields() {
         int i = new Random().nextInt(1000) + 1000;
@@ -113,17 +122,17 @@ public class AddNewContactTests extends TestBase {
 
     }
 
-    @Test
-    public void addNewContactWrongPhone() {
+    @Test (dataProvider = "contactWrongPhone", dataProviderClass = DataProviderContact.class)
+    public void addNewContactWrongPhone(Contact contact) {
 
-        Contact contact = Contact.builder()
-                .name("Tom")
-                .lastName("Tomson")
-                .phone("")
-                .email("tomtom@gmail.com")
-                .address("Holon")
-                .description("empty phone")
-                .build();
+//        Contact contact = Contact.builder()
+//                .name("Tim")
+//                .lastName("Timson")
+//                .phone("")
+//                .email("timtom@gmail.com")
+//                .address("Holon")
+//                .description("empty phone")
+//                .build();
 
         logger.info("Tests run with data: --->"+contact.toString());
         app.getHelperContact().openContactForm();
