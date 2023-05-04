@@ -1,0 +1,51 @@
+10:52:55  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+10:52:55  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+10:53:00  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+10:53:00  INFO  manager.ListenerWD - list of elements is --->0
+10:53:00  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/login']
+10:53:00  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/login']
+10:53:00  INFO  manager.ListenerWD - Location of element(1170, 34)
+10:53:00  INFO  manager.ListenerWD - before Find Element --->By.name: email
+10:53:00  INFO  manager.ListenerWD - after Find Element --->By.name: email
+10:53:00  INFO  manager.ListenerWD - Location of element(440, 250)
+10:53:01  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[last()]
+10:53:01  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[last()]
+10:53:01  INFO  manager.ListenerWD - Location of element(440, 320)
+10:53:01  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Login']
+10:53:01  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Login']
+10:53:01  INFO  manager.ListenerWD - Location of element(440, 390)
+10:53:01  INFO  tests.TestBase - Name of method -->addNewContactSuccessRequiredFields
+10:53:01  INFO  tests.TestBase - Tests run with data: --->Contact(name=Tom1090, lastName=Tomson, phone=3456781090, email=tomtom1090@gmail.com, address=Holon, description=)
+10:53:01  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/add']
+10:53:02  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/add']
+10:53:02  INFO  manager.ListenerWD - Location of element(985, 34)
+10:53:02  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Name']
+10:53:02  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Name']
+10:53:02  INFO  manager.ListenerWD - Location of element(201, 165)
+10:53:02  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Last Name']
+10:53:02  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Last Name']
+10:53:02  INFO  manager.ListenerWD - Location of element(201, 238)
+10:53:03  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Phone']
+10:53:03  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Phone']
+10:53:03  INFO  manager.ListenerWD - Location of element(201, 311)
+10:53:03  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='email']
+10:53:03  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='email']
+10:53:03  INFO  manager.ListenerWD - Location of element(201, 385)
+10:53:03  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Address']
+10:53:03  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Address']
+10:53:03  INFO  manager.ListenerWD - Location of element(201, 458)
+10:53:03  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='description']
+10:53:03  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='description']
+10:53:03  INFO  manager.ListenerWD - Location of element(201, 531)
+10:53:03  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .add_form__2rsm2>button
+10:53:03  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .add_form__2rsm2>button
+10:53:03  INFO  manager.ListenerWD - Location of element(204, 605)
+10:53:04  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .add_form__2rsm2>button
+10:53:04  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .add_form__2rsm2>button
+10:53:04  INFO  manager.ListenerWD - Location of element(204, 553)
+10:53:04  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: h2
+10:53:04  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: h2
+10:53:04  INFO  manager.ListenerWD - list of elements is --->5
+10:53:04  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: h3
+10:53:05  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: h3
+10:53:05  INFO  manager.ListenerWD - list of elements is --->5

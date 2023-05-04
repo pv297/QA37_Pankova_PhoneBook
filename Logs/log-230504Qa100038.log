@@ -1,0 +1,70 @@
+10:00:43  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+10:00:43  INFO  tests.TestBase - Name of method -->loginUnregisteredUser
+10:00:43  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+10:00:49  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+10:00:49  INFO  manager.ListenerWD - list of elements is --->0
+10:00:49  INFO  tests.TestBase - Test data ----> email: p.v@gmail.com' & password : 'P29348092l@'
+10:00:49  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/login']
+10:00:49  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/login']
+10:00:49  INFO  manager.ListenerWD - Location of element(1170, 34)
+10:00:49  INFO  manager.ListenerWD - before Find Element --->By.name: email
+10:00:49  INFO  manager.ListenerWD - after Find Element --->By.name: email
+10:00:49  INFO  manager.ListenerWD - Location of element(440, 250)
+10:00:49  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[last()]
+10:00:49  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[last()]
+10:00:49  INFO  manager.ListenerWD - Location of element(440, 320)
+10:00:50  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Login']
+10:00:50  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Login']
+10:00:50  INFO  manager.ListenerWD - Location of element(440, 390)
+10:00:50  INFO  manager.ListenerWD - Huston we have a problem!
+10:00:50  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@12c0c0b3
+10:00:50  INFO  manager.ListenerWD - ***********************
+10:00:50  INFO  manager.ListenerWD - alert
+10:00:50  INFO  manager.ListenerWD - ***********************
+10:00:50  INFO  manager.ListenerWD - ***********************
+10:00:50  INFO  manager.ListenerWD - ***********************
+10:00:50  INFO  manager.ListenerWD - InvocationTargetException & getTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dcb56c8c2480728353392a7ad4d6aa54, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55603/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcb56c8c2480728353392a7ad4d6aa54
+10:00:50  INFO  manager.ListenerWD - ***********************
+10:00:50  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1579.png
+10:00:51  INFO  manager.ListenerWD - Huston we have a problem!
+10:00:51  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@f29353f
+10:00:51  INFO  manager.ListenerWD - ***********************
+10:00:51  INFO  manager.ListenerWD - alert
+10:00:51  INFO  manager.ListenerWD - ***********************
+10:00:51  INFO  manager.ListenerWD - ***********************
+10:00:51  INFO  manager.ListenerWD - ***********************
+10:00:51  INFO  manager.ListenerWD - InvocationTargetException & getTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dcb56c8c2480728353392a7ad4d6aa54, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55603/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcb56c8c2480728353392a7ad4d6aa54
+10:00:51  INFO  manager.ListenerWD - ***********************
+10:00:51  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1026.png
+10:00:51  INFO  manager.ListenerWD - Huston we have a problem!
+10:00:51  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@79696332
+10:00:51  INFO  manager.ListenerWD - ***********************
+10:00:51  INFO  manager.ListenerWD - alert
+10:00:51  INFO  manager.ListenerWD - ***********************
+10:00:51  INFO  manager.ListenerWD - ***********************
+10:00:51  INFO  manager.ListenerWD - ***********************
+10:00:51  INFO  manager.ListenerWD - InvocationTargetException & getTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dcb56c8c2480728353392a7ad4d6aa54, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55603/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcb56c8c2480728353392a7ad4d6aa54
+10:00:51  INFO  manager.ListenerWD - ***********************
+10:00:51  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1226.png
+10:00:52  INFO  tests.TestBase - Assert check is alert present with error text 'Wrong email or password'

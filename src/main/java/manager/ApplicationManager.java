@@ -34,10 +34,13 @@ public class ApplicationManager {
         }else if (browser.equals((Browser.FIREFOX.browserName()))){
             wd = new FirefoxDriver();
             logger.info("All tests run in FIREFOX Browser");
-        }else if (browser.equals(Browser.EDGE.browserName())){
-            wd = new EdgeDriver();
-            logger.info("All tests run in EDGE Browser");
-        }
+        }else
+            if (browser.equals(Browser.EDGE.browserName())) {
+                wd = new EdgeDriver();
+                logger.info("All tests run in EDGE Browser");
+            }
+
+
 
         WebDriverListener listener = new ListenerWD();
         wd = new EventFiringDecorator<>(listener).decorate(wd);

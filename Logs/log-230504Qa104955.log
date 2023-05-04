@@ -1,0 +1,192 @@
+10:50:02  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+10:50:02  INFO  tests.TestBase - Name of method -->loginWrongEmail
+10:50:02  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+10:50:07  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+10:50:07  INFO  manager.ListenerWD - list of elements is --->0
+10:50:07  INFO  tests.TestBase - Test data ----> email: p.v.2977187' & password : 'P29348092l@'
+10:50:07  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/login']
+10:50:07  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/login']
+10:50:07  INFO  manager.ListenerWD - Location of element(1170, 34)
+10:50:08  INFO  manager.ListenerWD - before Find Element --->By.name: email
+10:50:08  INFO  manager.ListenerWD - after Find Element --->By.name: email
+10:50:08  INFO  manager.ListenerWD - Location of element(440, 250)
+10:50:08  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[last()]
+10:50:08  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[last()]
+10:50:08  INFO  manager.ListenerWD - Location of element(440, 320)
+10:50:08  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Login']
+10:50:08  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Login']
+10:50:08  INFO  manager.ListenerWD - Location of element(440, 390)
+10:50:08  INFO  manager.ListenerWD - Huston we have a problem!
+10:50:08  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@60df7989
+10:50:08  INFO  manager.ListenerWD - ***********************
+10:50:08  INFO  manager.ListenerWD - alert
+10:50:08  INFO  manager.ListenerWD - ***********************
+10:50:08  INFO  manager.ListenerWD - ***********************
+10:50:08  INFO  manager.ListenerWD - ***********************
+10:50:08  INFO  manager.ListenerWD - InvocationTargetException & getTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7148deda18138ad85d728c71a2a232f6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60141}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60141/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7148deda18138ad85d728c71a2a232f6
+10:50:08  INFO  manager.ListenerWD - ***********************
+10:50:09  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1926.png
+10:50:09  INFO  manager.ListenerWD - Huston we have a problem!
+10:50:09  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@2e7bf7b7
+10:50:09  INFO  manager.ListenerWD - ***********************
+10:50:09  INFO  manager.ListenerWD - alert
+10:50:09  INFO  manager.ListenerWD - ***********************
+10:50:09  INFO  manager.ListenerWD - ***********************
+10:50:09  INFO  manager.ListenerWD - ***********************
+10:50:09  INFO  manager.ListenerWD - InvocationTargetException & getTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7148deda18138ad85d728c71a2a232f6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60141}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60141/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7148deda18138ad85d728c71a2a232f6
+10:50:09  INFO  manager.ListenerWD - ***********************
+10:50:09  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1137.png
+10:50:10  INFO  manager.ListenerWD - Huston we have a problem!
+10:50:10  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@781711b7
+10:50:10  INFO  manager.ListenerWD - ***********************
+10:50:10  INFO  manager.ListenerWD - alert
+10:50:10  INFO  manager.ListenerWD - ***********************
+10:50:10  INFO  manager.ListenerWD - ***********************
+10:50:10  INFO  manager.ListenerWD - ***********************
+10:50:10  INFO  manager.ListenerWD - InvocationTargetException & getTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7148deda18138ad85d728c71a2a232f6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60141}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60141/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7148deda18138ad85d728c71a2a232f6
+10:50:10  INFO  manager.ListenerWD - ***********************
+10:50:10  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1519.png
+10:50:10  INFO  tests.TestBase - Assert check is alert present with error text 'Wrong email or password'
+10:50:10  INFO  tests.TestBase - Name of method -->registrationWrongEmail
+10:50:10  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+10:50:15  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+10:50:15  INFO  manager.ListenerWD - list of elements is --->0
+10:50:15  INFO  tests.TestBase - Tests run with data: --->User{email='nilgmail.com', password='Nil12345@'}
+10:50:15  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/login']
+10:50:15  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/login']
+10:50:15  INFO  manager.ListenerWD - Location of element(1169, 33)
+10:50:15  INFO  manager.ListenerWD - before Find Element --->By.name: email
+10:50:16  INFO  manager.ListenerWD - after Find Element --->By.name: email
+10:50:16  INFO  manager.ListenerWD - Location of element(440, 281)
+10:50:16  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[last()]
+10:50:16  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[last()]
+10:50:16  INFO  manager.ListenerWD - Location of element(440, 351)
+10:50:17  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Registration']
+10:50:17  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Registration']
+10:50:17  INFO  manager.ListenerWD - Location of element(690, 421)
+10:50:17  INFO  manager.ListenerWD - Huston we have a problem!
+10:50:17  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@1f43cab7
+10:50:17  INFO  manager.ListenerWD - ***********************
+10:50:17  INFO  manager.ListenerWD - alert
+10:50:17  INFO  manager.ListenerWD - ***********************
+10:50:17  INFO  manager.ListenerWD - ***********************
+10:50:17  INFO  manager.ListenerWD - ***********************
+10:50:17  INFO  manager.ListenerWD - InvocationTargetException & getTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7148deda18138ad85d728c71a2a232f6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60141}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60141/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7148deda18138ad85d728c71a2a232f6
+10:50:17  INFO  manager.ListenerWD - ***********************
+10:50:17  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1671.png
+10:50:17  INFO  manager.ListenerWD - Huston we have a problem!
+10:50:17  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@467b0f6e
+10:50:17  INFO  manager.ListenerWD - ***********************
+10:50:17  INFO  manager.ListenerWD - alert
+10:50:17  INFO  manager.ListenerWD - ***********************
+10:50:17  INFO  manager.ListenerWD - ***********************
+10:50:17  INFO  manager.ListenerWD - ***********************
+10:50:17  INFO  manager.ListenerWD - InvocationTargetException & getTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7148deda18138ad85d728c71a2a232f6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60141}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60141/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7148deda18138ad85d728c71a2a232f6
+10:50:17  INFO  manager.ListenerWD - ***********************
+10:50:17  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1775.png
+10:50:18  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+10:50:23  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+10:50:23  INFO  manager.ListenerWD - list of elements is --->0
+10:50:23  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/login']
+10:50:23  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/login']
+10:50:23  INFO  manager.ListenerWD - Location of element(1169, 33)
+10:50:23  INFO  manager.ListenerWD - before Find Element --->By.name: email
+10:50:23  INFO  manager.ListenerWD - after Find Element --->By.name: email
+10:50:23  INFO  manager.ListenerWD - Location of element(440, 281)
+10:50:24  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[last()]
+10:50:24  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[last()]
+10:50:24  INFO  manager.ListenerWD - Location of element(440, 351)
+10:50:24  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Login']
+10:50:24  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Login']
+10:50:24  INFO  manager.ListenerWD - Location of element(440, 421)
+10:50:24  INFO  tests.TestBase - Name of method -->addNewContactSuccessRequiredFields
+10:50:24  INFO  tests.TestBase - Tests run with data: --->Contact(name=Tom1242, lastName=Tomson, phone=3456781242, email=tomtom1242@gmail.com, address=Holon, description=)
+10:50:24  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/add']
+10:50:25  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/add']
+10:50:25  INFO  manager.ListenerWD - Location of element(985, 34)
+10:50:25  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Name']
+10:50:25  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Name']
+10:50:25  INFO  manager.ListenerWD - Location of element(201, 165)
+10:50:25  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Last Name']
+10:50:25  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Last Name']
+10:50:25  INFO  manager.ListenerWD - Location of element(201, 238)
+10:50:25  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Phone']
+10:50:25  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Phone']
+10:50:25  INFO  manager.ListenerWD - Location of element(201, 311)
+10:50:26  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='email']
+10:50:26  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='email']
+10:50:26  INFO  manager.ListenerWD - Location of element(201, 385)
+10:50:26  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Address']
+10:50:26  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Address']
+10:50:26  INFO  manager.ListenerWD - Location of element(201, 458)
+10:50:26  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='description']
+10:50:26  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='description']
+10:50:26  INFO  manager.ListenerWD - Location of element(201, 531)
+10:50:26  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .add_form__2rsm2>button
+10:50:26  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .add_form__2rsm2>button
+10:50:26  INFO  manager.ListenerWD - Location of element(204, 605)
+10:50:27  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .add_form__2rsm2>button
+10:50:27  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .add_form__2rsm2>button
+10:50:27  INFO  manager.ListenerWD - Location of element(204, 553)
+10:50:27  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: h2
+10:50:27  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: h2
+10:50:27  INFO  manager.ListenerWD - list of elements is --->5
+10:50:27  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: h3
+10:50:28  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: h3
+10:50:28  INFO  manager.ListenerWD - list of elements is --->5
+10:50:28  INFO  tests.TestBase - Name of method -->removeFirstContact
+10:50:28  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+10:50:28  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+10:50:28  INFO  manager.ListenerWD - list of elements is --->1
+10:50:28  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: .contact-item_card__2SOIM
+10:50:28  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: .contact-item_card__2SOIM
+10:50:28  INFO  manager.ListenerWD - list of elements is --->5
+10:50:28  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: .contact-item_card__2SOIM
+10:50:28  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: .contact-item_card__2SOIM
+10:50:28  INFO  manager.ListenerWD - list of elements is --->5
+10:50:28  INFO  manager.HelperBase - Number of contacts list before remove --->5
+10:50:28  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .contact-item_card__2SOIM
+10:50:28  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .contact-item_card__2SOIM
+10:50:28  INFO  manager.ListenerWD - Location of element(192, 150)
+10:50:28  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Remove']
+10:50:28  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Remove']
+10:50:28  INFO  manager.ListenerWD - Location of element(635, 370)
+10:50:29  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: .contact-item_card__2SOIM
+10:50:29  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: .contact-item_card__2SOIM
+10:50:29  INFO  manager.ListenerWD - list of elements is --->4
+10:50:29  INFO  manager.HelperBase - Number of contacts list after remove --->4
