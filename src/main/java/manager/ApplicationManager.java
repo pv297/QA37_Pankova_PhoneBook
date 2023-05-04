@@ -27,7 +27,7 @@ public class ApplicationManager {
 
     public void init() {
         if (browser.equals(Browser.CHROME.browserName())) {
-            Browser.EDGE.browserName();
+
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--remote-allow-origins=*");
             wd = new ChromeDriver(options);
