@@ -14,18 +14,19 @@ public class TestBase {
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
     static ApplicationManager app = new ApplicationManager(System.getProperty("browser", Browser.CHROME.browserName()));
-    @BeforeMethod
-    public void startLogger(Method method){
+
+    @BeforeMethod(alwaysRun = true)
+    public void startLogger(Method method) {
         logger.info("Name of method -->" + method.getName());
     }
-    @BeforeSuite
-    public void setUp(){
+
+    @BeforeSuite(alwaysRun = true)
+    public void setUp() {
         app.init();
-
     }
-    @AfterSuite(alwaysRun = true)
-    public void tearDown(){
-       app.stop();
 
+    @AfterSuite(alwaysRun = true)
+    public void tearDown() {
+        app.stop();
     }
 }

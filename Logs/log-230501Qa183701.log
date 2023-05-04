@@ -1,0 +1,3 @@
+18:37:01  INFO  tests.TestBase - Tests run with data: --->User{email='nilgmail.com', password='Nil12345@'}
+18:37:01  INFO  tests.TestBase - Tests run with data: --->Contact(name=Tom1853, lastName=Tomson, phone=3456781853, email=tomtom1853@gmail.com, address=Holon, description=)
+18:37:01  INFO  tests.TestBase - Tests run with data: --->Contact(name=Tom, lastName=Tomson, phone=34567890123, email=tomtomgmail.com, address=Holon, description=wrong email)
