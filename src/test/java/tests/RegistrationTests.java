@@ -83,7 +83,7 @@ public class RegistrationTests extends TestBase {
     @Test
     public void registrationExistsUser() {
 
-        User user = new User().withEmail("p.v.2977187@gmail.com").withPassword("P29348092l@");
+        User user = new User().withEmail("marym@gmail.com").withPassword("Mm12345@");
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitRegistration();

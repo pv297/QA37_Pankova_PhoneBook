@@ -1,0 +1,4 @@
+20:33:13  INFO  tests.TestBase - Name of method -->loginWrongEmail
+20:33:13  INFO  tests.TestBase - Name of method -->registrationWrongEmail
+20:33:13  INFO  tests.TestBase - Name of method -->addNewContactSuccessRequiredFields
+20:33:13  INFO  tests.TestBase - Name of method -->removeFirstContact

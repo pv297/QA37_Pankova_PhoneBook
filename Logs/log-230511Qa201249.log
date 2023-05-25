@@ -1,0 +1,87 @@
+20:12:59  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+20:13:05  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+20:13:05  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Sign Out']
+20:13:10  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Sign Out']
+20:13:10  INFO  manager.ListenerWD - list of elements is --->0
+20:13:10  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/login']
+20:13:10  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/login']
+20:13:11  INFO  manager.ListenerWD - Location of element(1170, 34)
+20:13:11  INFO  manager.ListenerWD - before Find Element --->By.name: email
+20:13:11  INFO  manager.ListenerWD - after Find Element --->By.name: email
+20:13:11  INFO  manager.ListenerWD - Location of element(440, 250)
+20:13:13  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[last()]
+20:13:13  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[last()]
+20:13:13  INFO  manager.ListenerWD - Location of element(440, 320)
+20:13:15  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Login']
+20:13:15  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Login']
+20:13:15  INFO  manager.ListenerWD - Location of element(440, 390)
+20:13:16  INFO  tests.TestBase - Name of method -->addNewContactSuccessAllFields
+20:13:16  INFO  tests.TestBase - Tests run with data: --->Contact(name=Tom, lastName=Tomson, phone=3456780101, email=tomtom@gmail.com, address=Haifa, description=friend)
+20:13:16  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/add']
+20:13:17  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/add']
+20:13:17  INFO  manager.ListenerWD - Location of element(985, 34)
+20:13:17  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Name']
+20:13:17  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Name']
+20:13:17  INFO  manager.ListenerWD - Location of element(201, 165)
+20:13:18  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Last Name']
+20:13:18  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Last Name']
+20:13:18  INFO  manager.ListenerWD - Location of element(201, 238)
+20:13:19  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Phone']
+20:13:19  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Phone']
+20:13:19  INFO  manager.ListenerWD - Location of element(201, 311)
+20:13:20  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='email']
+20:13:20  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='email']
+20:13:20  INFO  manager.ListenerWD - Location of element(201, 385)
+20:13:21  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Address']
+20:13:21  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Address']
+20:13:21  INFO  manager.ListenerWD - Location of element(201, 458)
+20:13:22  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='description']
+20:13:22  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='description']
+20:13:22  INFO  manager.ListenerWD - Location of element(201, 531)
+20:13:22  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .add_form__2rsm2>button
+20:13:23  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .add_form__2rsm2>button
+20:13:23  INFO  manager.ListenerWD - Location of element(204, 605)
+20:13:23  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .add_form__2rsm2>button
+20:13:23  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .add_form__2rsm2>button
+20:13:23  INFO  manager.ListenerWD - Location of element(204, 553)
+20:13:23  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: h2
+20:13:25  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: h2
+20:13:25  INFO  manager.ListenerWD - list of elements is --->4
+20:13:25  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: h3
+20:13:25  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: h3
+20:13:25  INFO  manager.ListenerWD - list of elements is --->4
+20:13:25  INFO  tests.TestBase - Name of method -->addNewContactSuccessAllFields
+20:13:25  INFO  tests.TestBase - Tests run with data: --->Contact(name=Tomy, lastName=Tomsons, phone=345678701010, email=tomtoms@gmail.com, address=Holon, description=friend)
+20:13:25  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[href='/add']
+20:13:26  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[href='/add']
+20:13:26  INFO  manager.ListenerWD - Location of element(998, 34)
+20:13:26  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Name']
+20:13:26  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Name']
+20:13:26  INFO  manager.ListenerWD - Location of element(201, 165)
+20:13:26  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Last Name']
+20:13:26  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Last Name']
+20:13:27  INFO  manager.ListenerWD - Location of element(201, 238)
+20:13:27  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Phone']
+20:13:27  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Phone']
+20:13:27  INFO  manager.ListenerWD - Location of element(201, 311)
+20:13:28  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='email']
+20:13:28  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='email']
+20:13:28  INFO  manager.ListenerWD - Location of element(201, 385)
+20:13:42  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='Address']
+20:13:42  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='Address']
+20:13:42  INFO  manager.ListenerWD - Location of element(201, 458)
+20:13:43  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: [placeholder='description']
+20:13:43  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: [placeholder='description']
+20:13:46  INFO  manager.ListenerWD - Location of element(201, 531)
+20:13:52  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .add_form__2rsm2>button
+20:13:52  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .add_form__2rsm2>button
+20:13:52  INFO  manager.ListenerWD - Location of element(204, 605)
+20:13:54  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .add_form__2rsm2>button
+20:13:54  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .add_form__2rsm2>button
+20:13:54  INFO  manager.ListenerWD - Location of element(204, 553)
+20:13:54  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: h2
+20:13:59  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: h2
+20:13:59  INFO  manager.ListenerWD - list of elements is --->5
+20:14:01  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: h3
+20:14:01  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: h3
+20:14:01  INFO  manager.ListenerWD - list of elements is --->5

@@ -25,7 +25,7 @@ public class LoginTests extends TestBase {
     @Test(dataProvider = "loginData", dataProviderClass  = DataProviderUser.class)
     public void loginSuccess(String email,String password) {
         logger.info("Start test with name 'loginSuccess'");
-        //logger.info("Test data ----> email: p.v.2977187@gmail.com' & password : 'P29348092l@'");
+        //logger.info("Test data ----> email: marym@gmail.com' & password : 'Mm12345@'");
         logger.info("Test data ----> email: " + email + " & password : " + password);
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(email, password);
@@ -63,9 +63,9 @@ public class LoginTests extends TestBase {
 
     @Test(groups = {"smoke"})
     public void loginWrongEmail() {
-        logger.info("Test data ----> email: p.v.2977187' & password : 'P29348092l@'");
+        logger.info("Test data ----> email: p.v.2977187' & password : 'Mm12345@'");
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("p.v.2977187", "P29348092l@");
+        app.getHelperUser().fillLoginRegistrationForm("p.v.2977187", "Mm12345@");
         app.getHelperUser().submitLogin();
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password"));
         logger.info("Assert check is alert present with error text 'Wrong email or password'");
@@ -73,9 +73,9 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginWrongPassword() {
-        logger.info("Test data ----> email: p.v.2977187@gmail.com' & password : 'P29348092l'");
+        logger.info("Test data ----> email: marym@gmail.com' & password : 'Mm12345'");
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("p.v.2977187@gmail.com", "P29348092l");
+        app.getHelperUser().fillLoginRegistrationForm("marym@gmail.com", "Mm12345");
         app.getHelperUser().submitLogin();
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password"));
         logger.info("Assert check is alert present with error text 'Wrong email or password'");
@@ -83,9 +83,9 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginUnregisteredUser() {
-        logger.info("Test data ----> email: p.v@gmail.com' & password : 'P29348092l@'");
+        logger.info("Test data ----> email: p.v@gmail.com' & password : 'Mm12345@'");
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("p.v@gmail.com", "P29348092l@");
+        app.getHelperUser().fillLoginRegistrationForm("p.v@gmail.com", "Mm12345@");
         app.getHelperUser().submitLogin();
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password"));
         logger.info("Assert check is alert present with error text 'Wrong email or password'");

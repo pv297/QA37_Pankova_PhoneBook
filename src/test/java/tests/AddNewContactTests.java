@@ -14,7 +14,7 @@ public class AddNewContactTests extends TestBase {
     @BeforeClass(alwaysRun = true)
     public void preCondition() {
         if (!app.getHelperUser().isLogged())
-            app.getHelperUser().login(new User().withEmail("p.v.2977187@gmail.com").withPassword("P29348092l@"));
+            app.getHelperUser().login(new User().withEmail("marym@gmail.com").withPassword("Mm12345@"));
     }
 
     @Test(dataProvider = "contactSuccess",dataProviderClass = DataProviderContact.class)

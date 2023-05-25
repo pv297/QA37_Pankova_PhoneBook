@@ -38,6 +38,7 @@ public class ApplicationManager {
         }else
             if (browser.equals(Browser.EDGE.browserName())) {
                 wd = new EdgeDriver();
+
                 logger.info("All tests run in EDGE Browser");
             }
 
